@@ -23,13 +23,14 @@ public class RunAlgorithm
         int[] start = new int[2];
         int[] target = new int[2];
         
-        // TODO: create blocked pathways
+        // 0 unblocked
+        // 1 blocked
         int[][] map = { {0, 0, 0, 0, 0, 0},
                         {0, 0, 0, 0, 0, 0},
+                        {0, 1, 0, 0, 0, 0},
+                        {0, 0, 0, 1, 0, 0},
                         {0, 0, 0, 0, 0, 0},
-                        {0, 0, 0, 0, 0, 0},
-                        {0, 0, 0, 0, 0, 0},
-                        {0, 0, 0, 0, 0, 0}};
+                        {0, 0, 1, 0, 0, 0}};
 
         start[0] = 0;
         start[1] = 0;
@@ -82,4 +83,6 @@ public class RunAlgorithm
 
         return reachedTargetCell;
     }
+
+    // Add isBlocked method
 }
