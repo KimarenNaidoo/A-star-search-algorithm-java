@@ -54,6 +54,22 @@ public class RunAlgorithm
         while(!openList.isEmpty())
         {
 
+            // 1st successor - North
+
+            // 2nd successor - South
+
+            // 3rd successor - East 
+
+            // 4th successor - West
+
+            // 5th successor - North East
+
+            // 6th successor - North West
+
+            // 7th successor - South East
+            
+            // 8th successor - South West
+
         }
     }
 
